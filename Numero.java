@@ -1,21 +1,25 @@
+package TALLER3;
+import java.util.Scanner;
 public class Numero {
     public static void main(String[] args) {
-        int Numero=80;
+        Scanner scanner = new Scanner(System.in);
 
-        if(Numero>50){
-            if(Numero %2==0){
-                System.out.println("el numero es par y mayor que 50");
+        System.out.println("¿Cuántos números deseas ingresar?");
+        int cantidad = scanner.nextInt();
+
+        int maximo = Integer.MIN_VALUE; 
+
+        System.out.println("Ingresa los números:");
+        for (int i = 0; i < cantidad; i++) {
+            int numero = scanner.nextInt();
+            if (numero > maximo) {
+                maximo = numero; 
             }
         }
 
-        if(Numero<50){
-            if(Numero %2==0){
-                System.out.println("el numero es par, pero no es mayor que 50");
-            }
-        }
-
-        if(Numero%2!=0){
-            System.out.println("el numero no es par");
-        }
+        System.out.println("El número mayor es: " + maximo);
+        scanner.close();
     }
 }
+
+  
