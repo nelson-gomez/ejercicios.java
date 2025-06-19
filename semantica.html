@@ -7,95 +7,134 @@
         <title>ETIQUETAS SEMANTICAS DIV</title>
     </head>
     <style>
-        header{
-            display:flex
-        }
-        ul{
-            display: flex;
-           
-        }
-        li{
-             margin: 10px;
-            padding: 10px;
-        }
-        section{
+        *{
+            padding: 0%;
+            margin: 0%;
+        }  
+        #header{
+            background-color: rgb(4, 5, 41);
             display: flex;
         }
-        a{
-            display:block;
-        }
-        footer{
+        #alfa{
+            background-color: rgb(15, 163, 243);
+            color: rgb(16, 13, 13);
             display: flex;
+            
         }
-        h3{
-            width: 80px;
-            height: 40px;
+        .div1{
+            background-color:  rgb(196, 216, 237);
+            gap: 15px;
+            margin: 7px;
+            
         }
-        body{
-            background-color: rgb(7, 140, 230);
+        .div2{
+            display:flex;
+            gap: 15px;
         }
-
-       
+        .div3{
+            background-color: rgb(196, 216, 237);
+            gap: 300px;
+            margin: 40px;
+        }
+        .holamundo{
+            display: flex;
+            gap: 300px;
+            margin: 40px;
+        }
+        .img{
+            width: 100px;
+            height: 100px;
+        }
+        .imagen1derecha{
+            width: 200px;
+            height: 200px;
+        }
+        .div4{
+            gap: 15px;
+            display: flex;
+            margin: 40px;
+        }
+        .img2{
+            width: 100px;
+            height: 100px;
+        }
+        .imagenes{
+            display: flex;
+            gap: 250px;
+            background-color: rgb(4, 5, 41) ;
+            color: white;
+        }
     </style>
     <body>
-        <header>
+        <header id="header">
             
             <img src="https://www.infobae.com/resizer/v2/ARBKXYU6NRDZZCFBAUUGBAK4QY.jpg?auth=7dbd6d124f15e1558eb1bc52d6094b6a07fc831848047c1bf1c29d09ea7f550a&height=900&quality=85&smart=true&width=1200"width="150px" height="100px">
-            <nav>
-                <ul>
+            <nav >
+                <ul class="holamundo">
                 <li><a href="Informacion">Informacion</a></li>
                 <li><a href="Contacto">Contacto</a></li>
                 <li><a href="Enlaces">Enlaces</a></li>
                 </ul>
             </nav>
-           
+
         </header>
         <main>
-            <h1>seccion 1</h1>
-            <section>
-                <img src="https://movistararena.co/wp-content/uploads/2023/10/blessd-9-589x295.jpg" width="100px" height="100px">
-                <article>cantante blessd</article>
-                <p>el "cantante blessd" es un rapero y cantante colombiano. Su nombre artístico, Blessd, se traduce como "Bendito" en español. </p>
-            </section>
-            <br>
-            <section>
-                <img src="https://i.pinimg.com/736x/85/14/a3/8514a38dca7dbfa154fa02ba2884e126.jpg" width="100px" height="100px">
-                <article>blessd</article>
-                <br>
-                <p>Su música combina experiencias personales con ritmos pegajosos, lo que lo ha convertido en una de las nuevas promesas del género urbano en Latinoamérica.</p>
-            </section>
-            <section>
-                <h1>seccion 2</h1>
-            </section>
-            <section>
-                <img src="https://www.infobae.com/resizer/v2/ARBKXYU6NRDZZCFBAUUGBAK4QY.jpg?auth=7dbd6d124f15e1558eb1bc52d6094b6a07fc831848047c1bf1c29d09ea7f550a&height=900&quality=85&smart=true&width=1200" width="100px" height="100px">
-                <article>cantando</article>
-                <br>
-                <p>Blessd probablemente se siente agradecido, poderoso cuando le canta al público.</p>
-            </section>
-            <section>
-                <img src="https://www.elheraldo.co/resizer/v2/ZYM54XSOMZHAVEF3LXX3WHVD6I.jpg?auth=5c4b876640e789a604e320aaa9151d6f51b276eb74edec0b7bcf6e646ae82e73&smart=true&width=760&height=507&quality=70" width="100px" height="100px">
-                <article>conectado</article>
-                <br>
-                <p>El cantante Blesd conecta con el público de varias maneras clave, que reflejan tanto su estilo musical como su presencia escénica y autenticidad personal.</p>
-            </section>
+        <div id="alfa"> 
+                <div class="div5">
+                    <h1>seccion 1</h1>
+                    <div class="div1">
+                        <div class="div2">
+                            <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdIHtmHF8LZceVKC6Jc0mN3uDqJIV3VMwI6w&s" >
+                            <article class="art">CANTANTE BLESSD</article>
+                            <p>el "cantante blessd" es un rapero y cantante colombiano. Su nombre artístico, Blessd, se traduce como "Bendito" en español.</p>
+                        </div>
+                        <br>
+                        <div class="div2">
+                            <img class="img" src="https://movistararena.co/wp-content/uploads/2023/10/blessd-9-589x295.jpg">
+                            <article class="art">CANTANTE BLESSD</article>
+                            <p>Su música combina experiencias personales con ritmos pegajosos, lo que lo ha convertido en una de las nuevas promesas del género urbano en Latinoamérica. </p>
+                        </div>
+                    </div>
+                
+                    <br>
+                    <h1>seccion2</h1>
+                    <div class="div1">
+                        <div class="div2">
+                            <img class="img2" src="https://www.elheraldo.co/resizer/v2/ZYM54XSOMZHAVEF3LXX3WHVD6I.jpg?auth=5c4b876640e789a604e320aaa9151d6f51b276eb74edec0b7bcf6e646ae82e73&smart=true&width=760&height=507&quality=70">
+                            <article class="art">CANTANDO</article>
+                            <P>Blessd probablemente se siente agradecido, poderoso cuando le canta al público.</P>
+                        </div>
+                        <div class="div2">
+                            <img class="img2" src="https://caracoltv.brightspotcdn.com/dims4/default/c2f9ef7/2147483647/strip/true/crop/1000x716+0+0/resize/400x286!/quality/75/?url=http%3A%2F%2Fcaracol-brightspot.s3.us-west-2.amazonaws.com%2F5d%2F6a%2F61d3be1c4607a6d0357f8b2fdf64%2Fblessd.jpg">
+                            <article class="art">conectado</article>
+                            <p>El cantante Blesd conecta con el público de varias maneras clave, que reflejan tanto su estilo musical como su presencia escénica y autenticidad personal.</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="div3">
             <aside>
-                <nav>
+                <nav class=" class1">
                      <a href="https://es.wikipedia.org/wiki/Blessd">Historia de blessd</a>
                      <a href="https://www.youtube.com/watch?v=HB9sKa2TtWA">canciones de blessd</a>
                 </nav>
-                <section>
+                <div class="div4">
                     <figure>
-                       <img src="https://latinbayarea.com/wp-content/uploads/2023/01/blessdtop.jpg" > 
+                       <img class="imagen1derecha" src="https://latinbayarea.com/wp-content/uploads/2023/01/blessdtop.jpg" > 
                     </figure>
                     <figcaption>
                         blessd suele escribir canciones que abordan temas intimos como el amor,desamor, superacion personal y las experiencias de vida.
                     </figcaption>
-                </section>
+                </div>
             </aside>
-            <footer>
+            </div>
+            
+        </div>
+            
+        </main>
+        <footer>
+            <div class="imagenes"> 
                 <nav>
-                    <h3>Cantante blessd foto 1</h3>
+                    <h3>foto 1</h3>
                     <img src="https://s1.ticketm.net/dam/a/2c8/fa03890d-997a-4529-baf5-7e1316be92c8_RETINA_PORTRAIT_3_2.jpg" width="100px" height="100px">
                 </nav>
                 <nav>
@@ -110,8 +149,8 @@
                     <h3>foto 4 </h3>
                     <img src="https://i1.sndcdn.com/avatars-5lHSv2YRsmEiR50M-JKVO6A-t1080x1080.jpg" width="100px" height="100px">
                 </nav>
-            </footer>
-        </main>
+            </div>
+         </footer>
       
     </body>
     </html>
